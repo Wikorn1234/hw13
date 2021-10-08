@@ -4,6 +4,8 @@ import 'package:testna/game/page/login/login_page.dart';
 import 'package:testna/game/page/profile/profile_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'game/page/models/Food_details.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -25,9 +27,9 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/login',
       routes: {
-        HomePage.routeName : (context) => HomePage(),
         LoginPage.routeName : (context) => LoginPage(),
-        ProfilePage.routeName :(context) => ProfilePage(),
+        HomePage.routeName : (context) => HomePage(),
+        FoodDetails.routeName :(context) => FoodDetails(),
       },
     );
   }
