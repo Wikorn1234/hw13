@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
                         child: Container(
                           width: 80.0,
                           height: 80.0,
-                          child: Image.asset('assets/images/profile.jpg'),
+                          child: Image.asset('assets/images/profile.png'),
                         )),
                     Text("Wikorn Sangsuk",
                         style: TextStyle(color: Colors.white, fontSize: 18)),

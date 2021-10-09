@@ -23,7 +23,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     child: Container(
                       width: 160.0,
                       height: 160.0,
-                      child: Image.asset('assets/images/profile.jpg'),
+                      child: Image.asset('assets/images/profile.png'),
                     )
                 ),
                 Text("Wikorn Sangsuk", style: Theme.of(context).textTheme.headline1,),

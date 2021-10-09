@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:testna/game/page/models/Food_details.dart';
+import 'package:testna/game/page/models/food_details.dart';
 import 'package:testna/game/page/models/food_item.dart';
 
 class FoodListPage extends StatefulWidget {
